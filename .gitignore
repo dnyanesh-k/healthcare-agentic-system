@@ -1,0 +1,9 @@
+venv/
+.venv/
+.env
+__pycache__/
+HELP.md
+*.egg-info/
+*.pyc
+*.db
+*.json
