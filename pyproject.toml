@@ -1,0 +1,14 @@
+[project]
+name = "healthcare-agentic-system"
+version = "0.1.0"
+description = "healthcare support agent for all types of user queries"
+requires-python = ">3.10, <3.15"
+dependencies = [
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.package.find]
+where = ["src"]
