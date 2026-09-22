@@ -6,7 +6,7 @@ from src.healthcare_agent.data.appointments import fetch_patient_appointments
 def test_db_connection():
     logger.info("Connecting to PostgreSQL...")
     try:
-        fetch_patient_appointments('PAT-001')
+        fetch_patient_appointments('PAT-002')
         # with get_cursor() as cursor:
             # cursor.execute("SELECT version();") 
             # version_result = cursor.fetchone()
